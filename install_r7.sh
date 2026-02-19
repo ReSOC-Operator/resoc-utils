@@ -18,5 +18,6 @@ fi
 
 apt-get install /tmp/r7.deb -y
 cd /opt/rapid7/ir_agent/components/insight_agent/4.0.21.45
-/opt/rapid7/ir_agent/components/insight_agent/4.0.21.45/configure_agent.sh --token=eu:ab23ad3a-68c9-4fe1-b448-1d5083739129 -v --start
+/opt/rapid7/ir_agent/components/insight_agent/4.0.21.45/configure_agent.sh --token=eu:d7bfca37-6f50-4382-b090-ff99d144d072 -v --start
+
 systemctl status ir_agent.service
